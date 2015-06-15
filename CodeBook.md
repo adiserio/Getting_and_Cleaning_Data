@@ -4,12 +4,19 @@ Human Activity Recognition Using Smartphones Dataset
 #### Angela Di Serio
 
  1. activityID  (string of characters)
+ 
     Activity performed by a subject
+	
 		WALKING
+		
 		WALKING_UPSTAIRS
+		
 		WALKING_DOWNSTAIRS
+
 		SITTING
+
 		STANDING
+
 		LAYING
 
  2. subjectID (numeric 1 .. 30)
