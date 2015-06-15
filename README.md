@@ -38,3 +38,4 @@ run_analysis.R performs the followwing steps:
  4. Creates a tidy data set (TidyData.txt) in the working directory. This file contains the average of each variable grouped by activity and subject.
  
 ####**CodeBook.md**
+A code book describing each variable and its value in the tidy data set
