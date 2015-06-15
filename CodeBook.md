@@ -19,12 +19,22 @@ Human Activity Recognition Using Smartphones Dataset
 
 		LAYING
 
- 2. subjectID (numeric 1 .. 30)
-	Identification of the subject that performed an activity
+ 2. subjectID (integer 1 .. 30)
+ 
+	Identification of the subject who carried out the experiment
 	
-tBodyAcc_mean_X
-tBodyAcc_mean_Y
-tBodyAcc_mean_Z
+ 3. tBodyAcc_mean_X  (float -1 .. 1) Normalized
+ 
+    Average of the mean time domain body acceleration over X-axis
+	
+ 4. tBodyAcc_mean_Y (float -1 .. 1) Normalized
+ 
+    Average of the mean time domain body acceleration over Y-axis
+
+ 5. tBodyAcc_mean_Z (float -1 .. 1) Normalized
+ 
+    Average of the mean time domain body acceleration over Z-axis
+	
 tBodyAcc_std_X
 tBodyAcc_std_Y
 tBodyAcc_std_Z
