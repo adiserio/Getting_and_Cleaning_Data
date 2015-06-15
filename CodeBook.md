@@ -25,29 +25,68 @@ Human Activity Recognition Using Smartphones Dataset
 	
  3. tBodyAcc_mean_X  (float -1 .. 1) Normalized
  
-    Average of the mean time domain body acceleration over X-axis
+    Average of the time domain body acceleration meanover X-axis
 	
  4. tBodyAcc_mean_Y (float -1 .. 1) Normalized
  
-    Average of the mean time domain body acceleration over Y-axis
+    Average of the time domain body acceleration mean over Y-axis
 
  5. tBodyAcc_mean_Z (float -1 .. 1) Normalized
  
-    Average of the mean time domain body acceleration over Z-axis
+    Average of the time domain body acceleration mean over Z-axis
 	
-tBodyAcc_std_X
-tBodyAcc_std_Y
-tBodyAcc_std_Z
-tGravityAcc_mean_X
-tGravityAcc_mean_Y
-tGravityAcc_mean_Z
-tGravityAcc_std_X
-tGravityAcc_std_Y
-tGravityAcc_std_Z
-tBodyAccJerk_mean_X
-tBodyAccJerk_mean_Y
-tBodyAccJerk_mean_Z
-tBodyAccJerk_std_X
+ 6. tBodyAcc_std_X (float -1 .. 1) Normalized
+ 
+    Average of the time domain body acceleration standard deviation over X-axis
+	
+ 7. tBodyAcc_std_Y (float -1 .. 1) Normalized
+ 
+    Average of the time domain body acceleration standard deviation over Y-axis
+	
+ 8. tBodyAcc_std_Z (float -1 .. 1) Normalized
+ 
+    Average of the time domain body acceleration standard deviation over Z-axis
+	
+ 9. tGravityAcc_mean_X (float -1 .. 1) Normalized
+ 
+    Average of the time domain gravity acceleration mean over X-axis
+	
+ 10. tGravityAcc_mean_Y (float -1 .. 1) Normalized
+ 
+    Average of the time domain gravity acceleration mean over Y-axis
+	
+ 11. tGravityAcc_mean_Z (float -1 .. 1) Normalized
+ 
+    Average of the time domain gravity acceleration mean over Z-axis
+	
+ 12. tGravityAcc_std_X (float -1 .. 1) Normalized
+ 
+    Average of the time domain gravity acceleration standard deviation over X-axis
+	
+ 13. tGravityAcc_std_Y  (float -1 .. 1) Normalized
+ 
+    Average of the time domain gravity acceleration standard deviation over Y-axis
+	
+ 14. tGravityAcc_std_Z  (float -1 .. 1) Normalized
+ 
+    Average of the time domain gravity acceleration standard deviation over Z-axis
+	
+ 15. tBodyAccJerk_mean_X (float -1 .. 1) Normalized
+   
+    Average of the time derived body linear acceleration Jerk mean over X-axis
+
+ 16. tBodyAccJerk_mean_Y  (float -1 .. 1) Normalized
+   
+    Average of the time derived body linear acceleration Jerk mean over Y-axis
+
+ 17. tBodyAccJerk_mean_Z  (float -1 .. 1) Normalized
+   
+    Average of the time derived body linear acceleration Jerk mean over Z-axis
+
+ 18. tBodyAccJerk_std_X (float -1 .. 1) Normalized
+   
+    Average of the time derived body linear acceleration Jerk mean over Z-axis
+
 tBodyAccJerk_std_Y
 tBodyAccJerk_std_Z
 tBodyGyro_mean_X
