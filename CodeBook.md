@@ -211,7 +211,7 @@ Human Activity Recognition Using Smartphones Dataset
  
      Average Fast Fourier Transform body acceleration Jerk mean over X-axis
  
- 50.fBodyAccJerk_mean_Y (float -1 .. 1) Normalized
+ 50. fBodyAccJerk_mean_Y (float -1 .. 1) Normalized
  
      Average Fast Fourier Transform body acceleration Jerk mean over Y-axis
  
