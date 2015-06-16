@@ -2,7 +2,7 @@
 # Course: Getting and Cleaning Data
 # Date:   June 2015
 #
-# Script to create a Tidy data set for Training and Test Data
+# Script to create a Tidy data set for the Training and Test Data
 #-------------------------------------------------------------------------------------
 # Step 1.
 # Merge training and test sets to create one data set
@@ -13,8 +13,8 @@
 #      features.txt      List of all features to be used as variable names
 #      subject_train.txt Identifier of the subject who carried out the experiment 
 #
-#      TrainVsTest variable is added to identify the data belonging to the 
-#      Train and Test groups
+#      TrainVsTest variable is added to identify whether the data belong to the 
+#      Train or Test group
 
 # Read 561-feature vector from X_train.txt 
 message("Reading Training Data File")
@@ -119,5 +119,5 @@ NewTidyData<- (TidyData %>%
   TidyData <- as.data.frame(NewTidyData)
   write.table(TidyData,file="TidyData.txt", sep=",",row.name=FALSE)
   
-rm(NewTidyData,new.packages)
+rm(NewTidyData,new.packages,list.of.packages)
 

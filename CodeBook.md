@@ -87,53 +87,202 @@ Human Activity Recognition Using Smartphones Dataset
    
     Average of the time derived body linear acceleration Jerk mean over Z-axis
 
-tBodyAccJerk_std_Y
-tBodyAccJerk_std_Z
-tBodyGyro_mean_X
-tBodyGyro_mean_Y
-tBodyGyro_mean_Z
-tBodyGyro_std_X
-tBodyGyro_std_Y
-tBodyGyro_std_Z
-tBodyGyroJerk_mean_X
-tBodyGyroJerk_mean_Y
-tBodyGyroJerk_mean_Z
-tBodyGyroJerk_std_X
-tBodyGyroJerk_std_Y
-tBodyGyroJerk_std_Z
-tBodyAccMag_mean
-tBodyAccMag_std
-tGravityAccMag_mean
-tGravityAccMag_std
-tBodyAccJerkMag_mean
-tBodyAccJerkMag_std
-tBodyGyroMag_mean
-tBodyGyroMag_std
-tBodyGyroJerkMag_mean
-tBodyGyroJerkMag_std
-fBodyAcc_mean_X
-fBodyAcc_mean_Y
-fBodyAcc_mean_Z
-fBodyAcc_std_X
-fBodyAcc_std_Y
-fBodyAcc_std_Z
-fBodyAccJerk_mean_X
-fBodyAccJerk_mean_Y
-fBodyAccJerk_mean_Z
-fBodyAccJerk_std_X
-fBodyAccJerk_std_Y
-fBodyAccJerk_std_Z
-fBodyGyro_mean_X
-fBodyGyro_mean_Y
-fBodyGyro_mean_Z
-fBodyGyro_std_X
-fBodyGyro_std_Y
-fBodyGyro_std_Z
-fBodyAccMag_mean
-fBodyAccMag_std
-fBodyBodyAccJerkMag_mean
-fBodyBodyAccJerkMag_std
-fBodyBodyGyroMag_mean
-fBodyBodyGyroMag_std
-fBodyBodyGyroJerkMag_mean
-fBodyBodyGyroJerkMag_std
+ 19. tBodyAccJerk_std_Y  (float -1 .. 1) Normalized
+   
+    Average of the time derived body linear acceleration Jerk standard deviation over X-axis
+
+ 20. tBodyAccJerk_std_Z  (float -1 .. 1) Normalized
+   
+    Average of the time derived body linear acceleration Jerk standard deviation over Y-axis
+
+ 21. tBodyGyro_mean_X  (float -1 .. 1) Normalized
+   
+    Average of the time body angular velocity mean over X-axis
+
+ 22. tBodyGyro_mean_Y (float -1 .. 1) Normalized
+   
+    Average of the time body angular velocity mean over Y-axis
+
+ 23. tBodyGyro_mean_Z  (float -1 .. 1) Normalized
+   
+    Average of the time body angular velocity mean over Z-axis
+
+ 24. tBodyGyro_std_X (float -1 .. 1) Normalized
+   
+    Average of the time body angular velocity standard deviation over X-axis
+
+ 25. tBodyGyro_std_Y (float -1 .. 1) Normalized
+   
+    Average of the time body angular velocity standard deviation over Y-axis
+
+ 26. tBodyGyro_std_Z (float -1 .. 1) Normalized
+   
+    Average of the time body angular velocity standard deviation over Z-axis
+
+ 27. tBodyGyroJerk_mean_X (float -1 .. 1) Normalized
+   
+    Average of the time derived body angular velocity Jerk mean over X-axis
+
+ 28. tBodyGyroJerk_mean_Y (float -1 .. 1) Normalized
+   
+    Average of the time derived body angular velocity Jerk mean over Y-axis
+
+ 29. tBodyGyroJerk_mean_Z (float -1 .. 1) Normalized
+   
+    Average of the time derived body angular velocity Jerk mean over Z-axis
+
+ 30. tBodyGyroJerk_std_X (float -1 .. 1) Normalized
+   
+    Average of the time derived body angular velocity Jerk standard deviation over X-axis
+
+ 31. tBodyGyroJerk_std_Y (float -1 .. 1) Normalized
+   
+    Average of the time derived body angular velocity Jerk standard deviation over Y-axis
+
+ 32. tBodyGyroJerk_std_Z (float -1 .. 1) Normalized
+   
+    Average of the time derived body angular velocity Jerk standard deviation over Z-axis
+
+ 33. tBodyAccMag_mean (float -1 .. 1) Normalized
+   
+    Average of the time body linear acceleration magnitude (calculated using Euclidian Norm) mean
+
+ 34. tBodyAccMag_std (float -1 .. 1) Normalized
+   
+    Average of the time body linear acceleration magnitude (calculated using Euclidian Norm) standard deviation
+
+ 35. tGravityAccMag_mean (float -1 .. 1) Normalized
+   
+    Average of the time gravity acceleration magnitude (calculated using Euclidian Norm) mean
+
+ 36. tGravityAccMag_std (float -1 .. 1) Normalized
+   
+    Average of the time gravity acceleration magnitude (calculated using Euclidian Norm) standard deviation
+
+ 37. tBodyAccJerkMag_mean (float -1 .. 1) Normalized
+   
+    Average of the time body derived acceleration Jerk magnitude mean
+
+ 38. tBodyAccJerkMag_std (float -1 .. 1) Normalized
+   
+    Average of the time body derived acceleration Jerk magnitude standard deviation
+
+ 39. tBodyGyroMag_mean (float -1 .. 1) Normalized
+   
+    Average of the time body angular velocity magnitude mean
+
+ 40. tBodyGyroMag_std (float -1 .. 1) Normalized
+   
+    Average of the time body angular velocity magnitude standard deviation
+
+ 41. tBodyGyroJerkMag_mean (float -1 .. 1) Normalized
+ 
+     Average of the time derived body angular velocity Jerk mean
+ 
+ 42. tBodyGyroJerkMag_std (float -1 .. 1) Normalized
+ 
+     Average of the time derived body angular velocity Jerk standard deviation
+ 
+ 43. fBodyAcc_mean_X (float -1 .. 1) Normalized
+ 
+     Average of the mean frequency body acceleration derived using Fast Fourier Transform over X-axis 
+ 
+ 44. fBodyAcc_mean_Y (float -1 .. 1) Normalized
+ 
+     Average of the mean frequency body acceleration derived using Fast Fourier Transform over Y-axis
+ 
+ 45. fBodyAcc_mean_Z (float -1 .. 1) Normalized
+ 
+     Average of the mean frequency body acceleration derived using Fast Fourier Transform over Z-axis
+ 
+ 46. fBodyAcc_std_X (float -1 .. 1) Normalized
+ 
+     Average of the standard deviation  body acceleration derived using Fast Fourier Transform over X-axis
+ 
+ 47. fBodyAcc_std_Y (float -1 .. 1) Normalized
+ 
+     Average of the standard deviation  body acceleration derived using Fast Fourier Transform over Y-axis
+ 
+ 48. fBodyAcc_std_Z (float -1 .. 1) Normalized
+ 
+      Average of the standard deviation  body acceleration derived using Fast Fourier Transform over Z-axis
+ 
+ 49. fBodyAccJerk_mean_X (float -1 .. 1) Normalized
+ 
+     Average Fast Fourier Transform body acceleration Jerk mean over X-axis
+ 
+ 50.fBodyAccJerk_mean_Y (float -1 .. 1) Normalized
+ 
+     Average Fast Fourier Transform body acceleration Jerk mean over Y-axis
+ 
+ 51. fBodyAccJerk_mean_Z (float -1 .. 1) Normalized
+ 
+     Average Fast Fourier Transform body acceleration Jerk mean over Z-axis
+ 
+ 52. fBodyAccJerk_std_X (float -1 .. 1) Normalized
+ 
+     Average Fast Fourier Transform body acceleration Jerk standard deviation over X-axis
+ 
+ 53. fBodyAccJerk_std_Y (float -1 .. 1) Normalized
+ 
+     Average Fast Fourier Transform body acceleration Jerk standard deviation over Y-axis
+ 
+ 54. fBodyAccJerk_std_Z (float -1 .. 1) Normalized
+ 
+     Average Fast Fourier Transform body acceleration Jerk standard deviation over Z-axis
+ 
+ 55. fBodyGyro_mean_X (float -1 .. 1) Normalized
+ 
+     Average of the Fast Fourier body angular velocity mean over X-axis
+	 
+ 56. fBodyGyro_mean_Y (float -1 .. 1) Normalized
+ 
+     Average of the Fast Fourier body angular velocity mean over Y-axis
+	 
+ 57. fBodyGyro_mean_Z (float -1 .. 1) Normalized
+ 
+     Average of the Fast Fourier body angular velocity mean over Z-axis
+	 
+ 58. fBodyGyro_std_X (float -1 .. 1) Normalized
+ 
+     Average of the Fast Fourier body angular velocity standard deviation over X-axis
+ 
+ 59. fBodyGyro_std_Y (float -1 .. 1) Normalized
+ 
+     Average of the Fast Fourier body angular velocity standard deviation over Y-axis
+ 
+ 60. fBodyGyro_std_Z (float -1 .. 1) Normalized
+ 
+     Average of the Fast Fourier body angular velocity standard deviation over Z-axis
+ 
+ 61. fBodyAccMag_mean (float -1 .. 1) Normalized
+ 
+     Average of the Fast Fourier body linear acceleration magnitude mean
+	 
+ 62. fBodyAccMag_std (float -1 .. 1) Normalized
+ 
+     Average of standard deviation of the Fast Fourier body linear acceleration magnitude 
+	 
+ 63. fBodyBodyAccJerkMag_mean(float -1 .. 1) Normalized 
+ 
+     Average of the Fast Fourier frequency domain Jerk magnitud mean
+	 
+ 64. fBodyBodyAccJerkMag_std (float -1 .. 1) Normalized
+ 
+     Average of the standard deviation of the Fast Fourier transform frequency domain Jerk magnitude
+	 
+ 65. fBodyBodyGyroMag_mean (float -1 .. 1) Normalized
+ 
+     Average of the mean of the Fast Fourier body angular velocity magnitud
+	 
+ 66. fBodyBodyGyroMag_std (float -1 .. 1) Normalized
+ 
+     Average of the standard deviation of the Fast Fourier body angular velocity magnitud
+	 
+ 67. fBodyBodyGyroJerkMag_mean (float -1 .. 1) Normalized
+ 
+     Average of the mean of the Fast Fourier body angular velocity magnitud Jerk magnitud
+	 
+ 68. fBodyBodyGyroJerkMag_std (float -1 .. 1) Normalized
+
+     Average of the stadard deviation of the Fast Fourier body angular velocity magnitud Jerk magnitud
