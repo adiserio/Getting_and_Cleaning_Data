@@ -2,7 +2,7 @@
 
 Course Project
 Human Activity Recognition Using Smartphones Dataset
-#### Angela Di Serio
+#### Angela Di Serio Iuorno
 
 This repository includes the following files:
  1.  run_analysis.R
